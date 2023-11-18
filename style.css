@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo:hover{
+    color: gray;
+}
+.logo{
+margin-left: 100px;
+cursor: pointer;
+}
+.logo h2{
+font-weight: 700;
+
+}
+.list-bar{
+    margin-right: 40px;
+    
+}
+
+
+.list-bar ul{
+display: flex;
+}
+.list-bar ul li{
+    cursor: pointer;
+    list-style: none;
+    margin: 0px 14px;
+}
+.list-bar ul li:hover{
+    color: gray;
+}
+
+section{
+    background: url('family-camping-at-sunset.jpg');
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.txt{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.hero-bar-txt{
+    display: flex;
+    height: 85%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-bar-txt h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.hero-bar-txt p{
+    margin-bottom: 20px;
+}
+ #btn1{
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    
+    
+}
+#btn1:hover{
+    background: transparent;
+    border:2px solid white;
+    color: #fff;
+    transition: 0.4sec ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+
+}
+.service{
+    margin-top: 50px;
+}
+
+.service-txt{
+    text-align: center;
+}
+.service-txt h3{
+    font-size: 33px;
+    line-height: 67px;
+    font-weight: 700;
+}
+.service-txt p{
+    margin-bottom: 40px;
+}
+
+#img-p{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+.bx{
+    height: 330px;
+    background: white;
+    width: 360px;
+    text-align: center;
+    border-radius: 8px;
+   
+}
+.bx p{
+    margin: 20px 47px;
+    width: 74%;
+    line-height: 23px;
+}
+.box1{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.about{
+margin-top: 80px;
+}
+.about-heading{
+    text-align: center;
+    line-height: 40px;
+}
+.story{
+    width: 76%;
+    margin-top: 33px;
+    margin-left: 85px;
+}
+.story h2{
+    line-height: 56px;
+}
+.story p{
+    line-height: 24px;
+}
+.story  ul{
+   margin: 0px 18px;
+}
+.story  ul li{
+    line-height: 29px;
+}
+.address{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 51px;
+}
+.info{
+margin-left: 80px;
+margin-top: 30px;
+}
+.info p{
+    margin-bottom: 14px;
+}
+.form-info{
+    margin-right: 100px;
+}
+input{
+    width:512px;
+    height:42px;
+}
+.form-info p{
+    margin-bottom: 20px;
+}
+span{
+    margin-left: 10px;
+}
+#inner{
+    padding: 3px 8px;
+    font-size: 14px;
+}
+#btn2{
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(44, 44, 44);
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+    
+    text-decoration: none;
+    
+    
+}
+#btn2:hover{
+    background: rgb(102, 101, 101);
+    cursor: pointer;
+}
+footer{
+    margin-bottom: 50px;
+}
